@@ -1,0 +1,54 @@
+.myDiv {
+  margin-left: 20px;
+  border: 1px outset red;
+  background-color: lightblue;
+  text-align: center;
+  width: 300px;
+  height: 250px;
+}
+.level {
+  margin: auto;
+  width: 100px;
+  border: 1px outset red;
+  border-top: 0px;
+}
+.lift {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Optional for vertical centering */
+}
+.elevator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+  height: 180px;
+  background-color: bisque;
+  margin: auto;
+}
+p {
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Arrow Style */
+.muti-arrow-align {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-arrow {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 40px solid red; /* Change "red" to your desired color */
+}
+.down-arrow {
+  margin-top: 5px;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 40px solid blue; /* Change "blue" to your desired color */
+}

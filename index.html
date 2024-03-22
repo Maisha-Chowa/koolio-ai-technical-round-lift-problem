@@ -4,8 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <h1>This is Home</h1>
+    <div>
+      <div class="lift">
+        <i class="down-arrow" id="level-3-down-arrow"></i>
+        <div class="myDiv" id="level-3">
+          <h2 class="level">level-3</h2>
+          <div id="elevator3"></div>
+        </div>
+      </div>
+      <div class="lift">
+        <div class="muti-arrow-a">
+          <i class="top-arrow" id="level-2-up-arrow"></i>
+          <i class="down-arrow" id="level-2-down-arrow"></i>
+        </div>
+        <div class="myDiv" id="level-2">
+          <h2 class="level">level-2</h2>
+          <div id="elevator2"></div>
+        </div>
+      </div>
+      <div class="lift">
+        <i class="top-arrow" id="level-1-up-arrow"></i>
+        <div class="myDiv">
+          <h2 class="level">level-1</h2>
+          <div class="elevator" id="elevator1">
+            <p>Elevator</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script/index.js"></script>
   </body>
 </html>
