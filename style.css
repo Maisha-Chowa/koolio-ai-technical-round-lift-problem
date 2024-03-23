@@ -25,6 +25,11 @@
   height: 180px;
   background-color: bisque;
   margin: auto;
+  position: relative;
+  transition-property: height;
+  transition-duration: 5s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
 }
 p {
   text-align: center;
